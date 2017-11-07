@@ -3,10 +3,12 @@ define(['backbone'], function (Backbone) {
   return Backbone.Model.extend({
 
     defaults: {
-      email  : '',
-      rights : ''
+      name  : '',
+      day : '',
+      age : '',
+      sexo : ''
     }
 
   });
-  
+
 });

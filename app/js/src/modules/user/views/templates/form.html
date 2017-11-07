@@ -5,12 +5,23 @@
   </div>
   <div class="modal-body">
     <div class="form-group">
-      <label for="email">Email address</label>
-      <input required value="{{ data.email }}" type="email" class="form-control" id="email" placeholder="Enter email">
+      <label for="email">Nombre Completo</label>
+      <input required value="{{ data.name }}" type="text" class="form-control" id="name" placeholder="Nombre Completo">
     </div>
     <div class="form-group">
-      <label for="role">Role</label>
-      <input required value="{{ data.role }}" type="text" class="form-control" id="role" placeholder="Role">
+      <label for="role">Fecha de Nacimiento</label>
+      <input required value="{{ data.day }}" type="text" class="form-control" id="day" placeholder="01/01/1999">
+    </div>
+    <div class="form-group">
+      <label for="role">Edad</label>
+      <input required value="{{ data.age }}" type="text" class="form-control" id="age" placeholder="Edad">
+    </div>
+    <div class="form-group">
+      <label for="role">Sexo</label>
+      <select name="sexo" id="sexo">
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+      </select>
     </div>
   </div>
   <div class="modal-footer">

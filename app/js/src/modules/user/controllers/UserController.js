@@ -63,8 +63,10 @@ function (Marionette, _, UserListView, UserView, UserModel, UserCollection) {
       var view   = args.view;
       var model  = args.model;
       var data = {
-        email : view.$('#email').val(),
-        role  : view.$('#role').val()
+        name  : view.$('#name').val(),
+        day : view.$('#day').val(),
+        age  : view.$('#age').val(),
+        sexo  : view.$('#sexo').val(),
       };
 
       var _onSaveSuccess = function (model, response, options) {

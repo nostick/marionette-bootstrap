@@ -1,14 +1,11 @@
 {
   "users": [
     {
-      "id": 1,
-      "email": "me@nuragic.io",
-      "role": "admin"
-    },
-    {
-      "id": 2,
-      "email": "user@email.com",
-      "role": "guest"
+      "name": "Cesar Sulbaran",
+      "day": "31/08/1992",
+      "age": 25,
+      "sexo": "Masculino",
+      "id": 6
     }
   ]
 }
